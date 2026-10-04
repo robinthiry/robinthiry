@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cloudsound — privacy policy</title>
+<style>
+  body { max-width: 40rem; margin: 3rem auto; padding: 0 1.2rem;
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         color: #111; }
+  h1 { font-size: 1.6rem; }
+  code { background: #f2f2f2; padding: .1em .3em; border-radius: 3px; }
+  @media (prefers-color-scheme: dark) { body { background:#111; color:#eee; }
+    code { background:#262626; } a { color:#7cc4ff; } }
+</style>
+<h1>Privacy policy</h1>
+<p>This application has a single user: its author. It is not offered to, and
+cannot be used by, anybody else.</p>
+<p>It requests one Google permission —
+<code>https://www.googleapis.com/auth/drive</code> — which it uses to upload a
+copy of a personal music library into a folder in the author's own Google
+Drive, and to read those same files back for playback.</p>
+<p>Nothing is collected, nothing is transmitted anywhere other than between the
+author's computer and Google Drive, and no data belonging to any other person is
+requested, accessed or stored.</p>
+<p>The only credential held is the OAuth token Google issues for this
+application. It is stored on the author's own computer, in
+<code>~/.config/rclone/rclone.conf</code>, readable only by that user, and it can
+be revoked at any time from the Google Account's security settings.</p>
+<p>This policy applies to the whole of the application. There are no
+third-party services, no analytics, no advertising and no tracking of any
+kind.</p>
+</html>
